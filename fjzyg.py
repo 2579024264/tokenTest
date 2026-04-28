@@ -1,7 +1,7 @@
 import time
 import requests
 
-API_KEY = "sk-T0OQdwM9kiXn8byuRouIuGfxuNsTfOJ6yJ7irgpYisKvXsNX"
+API_KEY = "sk-mFrEAymkVKXrmaiWkK8qbv36GpVRT9iRA0CgQw5gSm53PNdl"
 URL = "https://api.fjzyg.com/v1/chat/completions"  # ⚠️ 改成真实接口
 
 headers = {

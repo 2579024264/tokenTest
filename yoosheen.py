@@ -1,8 +1,8 @@
 import time
 import requests
 
-API_KEY = "sk-mFrEAymkVKXrmaiWkK8qbv36GpVRT9iRA0CgQw5gSm53PNdl"
-URL = "https://yoosheen.com/v1/chat/completions"  # ⚠️ 改成真实接口
+API_KEY = "sk-0VFYqJxB1HloUkyXmVB31KSqIjbdY0Lm4SlRwSCgO5td4ThR"
+URL = "https://api.yoosheen.com/v1/chat/completions"  # ⚠️ 改成真实接口
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
@@ -45,12 +45,6 @@ def test_latency(n=5):
         else:
             print(f"第{i+1}次: {latency:.2f} 秒 ❌ 失败")
             print("返回:", result)
-
-        # 📋 打印响应头
-        print("响应头:")
-        for key, value in response.headers.items():
-            print(f"  {key}: {value}")
-        print("-" * 50)
 
     if times:
         print("\n平均延时: %.2f 秒" % (sum(times) / len(times)))
