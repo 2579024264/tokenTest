@@ -1,8 +1,8 @@
 import time
 import requests
 
-API_KEY = "sk-kbN1A2VAcWoYrsTdErs8CtsyM59gQ2dMGoRtVwNIRA684MvU"
-URL = "https://www.packyapi.com/v1/chat/completions/"
+API_KEY = "sk-YW3ChPOyffzdcomxiaq631SYpVcIyQWQQ4nUdfL98qXuCkBy"
+URL = "http://ai.jiuqingyunapi.top/v1/chat/completions"  # ⚠️ 改成真实接口
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
@@ -10,7 +10,7 @@ headers = {
 }
 
 data = {
-    "model": "gemini-3-pro-preview",  # ⚠️ 用真实模型名
+    "model": "gpt-5.5",  # ⚠️ 用真实模型名
     "messages": [{"role": "user", "content": "ping"}],
     "max_tokens": 5
 }

@@ -1,7 +1,7 @@
 import time
 import requests
 
-API_KEY = "sk-WBurshAaVIkkHv9pop41CXqXF7g5HkjW7UoHvaFYeWiCTCEt"
+API_KEY = "sk-hvGYjGJXgJpgoqSez8rmCgMqKSCHQfbdj9uztkddb6O8Kgls"
 URL = "https://hboom.ai/v1/chat/completions"  # ⚠️ 改成真实接口
 
 headers = {

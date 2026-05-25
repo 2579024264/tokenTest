@@ -1,7 +1,7 @@
 import time
 import requests
 
-API_KEY = "sk-APLAeSwdFdLM6Ixw01f1e0xh62qF1se7aC9feaZVTlZwzzRD"
+API_KEY = "sk-tjLUiInZnp1j4Ptt06bRZiOk5UWLH7nWipeGqYdqo0VMcGKV"
 URL = "http://185.150.189.214:8888/v1/chat/completions"  # ⚠️ 改成真实接口
 
 headers = {
@@ -10,7 +10,7 @@ headers = {
 }
 
 data = {
-    "model": "gpt-5.4",  # ⚠️ 用真实模型名
+    "model": "gemini-3-pro-preview",  # ⚠️ 用真实模型名
     "messages": [{"role": "user", "content": "ping"}],
     "max_tokens": 5
 }
